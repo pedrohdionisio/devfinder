@@ -16,6 +16,8 @@
     "semi": "off",
     "react/jsx-filename-extension": "off",
     "react/react-in-jsx-scope": "off",
-    "import/prefer-default-export": "off"
+    "import/prefer-default-export": "off",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "off"
   }
 }
