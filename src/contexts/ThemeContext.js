@@ -1,11 +1,12 @@
 import PropTypes from 'prop-types'
 
-import { createContext, useState } from 'react'
+import { createContext } from 'react'
+import useLocalStorage from '../hooks/useLocalStorage'
 
 export const AppContext = createContext({})
 
 export default function AppProvider({ children }) {
-  const [theme, setTheme] = useState('dark')
+  const [theme, setTheme] = useLocalStorage('theme', 'dark')
 
   return (
     <AppContext.Provider value={{ theme, setTheme }}>
