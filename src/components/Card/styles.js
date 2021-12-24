@@ -170,3 +170,7 @@ export const UserLinks = styled.div`
     }
   }
 `
+
+export const UserNotFoundContainer = styled.div`
+  margin-top: 40px;
+`
