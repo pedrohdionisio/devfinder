@@ -140,3 +140,28 @@ export const UserStats = styled.div`
     }
   }
 `
+
+export const UserLinks = styled.div`
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 40px;
+
+  width: 100%;
+
+  div {
+    display: flex;
+    align-items: center;
+
+    a {
+      text-decoration: none;
+      color: ${({ theme }) => theme.colors.gray};
+      margin-left: 8px;
+    }
+
+    span {
+      color: ${({ theme }) => theme.colors.gray};
+      margin-left: 8px;
+    }
+  }
+`
