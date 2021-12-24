@@ -10,7 +10,7 @@ export default createGlobalStyle`
   body {
     font-family: 'Fira Code', monospace;
     background-color: ${({ theme }) => theme.colors.primaryBg};
-    color: ${({ theme }) => theme.colors.white};
+    color: ${({ theme }) => theme.colors.text};
   }
 
   button, input {

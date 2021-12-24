@@ -7,6 +7,7 @@ export const Wrapper = styled.header`
 
   span {
     font-size: 32px;
+    color: ${({ theme }) => theme.colors.text};
   }
 
   button {
