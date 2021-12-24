@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import search from '../../assets/images/search.svg'
 
 export const Wrapper = styled.div`
-  margin-top: 32px;
+  margin-top: 40px;
 `
 
 export const SearchContainer = styled.form`
@@ -57,6 +57,59 @@ export const SearchContainer = styled.form`
 
     &:hover {
       opacity: .7;
+    }
+  }
+`
+
+export const UserContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  margin-top: 40px;
+  padding: 16px;
+
+  background: ${({ theme }) => theme.colors.secondaryBg};
+  border-radius: 5px;
+`
+
+export const UserInfo = styled.div`
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+
+  img {
+    width: 100px;
+    border-radius: 50%;
+
+    margin-right: 16px;
+  }
+
+  div {
+    width: 100%;
+
+    .title {
+      display: flex;
+      justify-content: space-between;
+
+      width: 100%;
+
+      font-size: 24px;
+
+      small {
+        font-size: 16px;
+        color: ${({ theme }) => theme.colors.gray};
+      }
+    }
+
+    span {
+      color: ${({ theme }) => theme.colors.blue};
+    }
+
+    .bio {
+      margin-top: 16px;
+      color: ${({ theme }) => theme.colors.gray};
     }
   }
 `
