@@ -9,6 +9,7 @@ import GlobalStyles from '../../assets/styles/global'
 import { Wrapper } from './styles'
 import Header from '../Header'
 import { AppContext } from '../../contexts/ThemeContext'
+import Card from '../Card'
 
 export default function App() {
   const { theme } = useContext(AppContext)
@@ -18,6 +19,7 @@ export default function App() {
       <GlobalStyles />
       <Wrapper>
         <Header />
+        <Card />
       </Wrapper>
     </ThemeProvider>
   )
