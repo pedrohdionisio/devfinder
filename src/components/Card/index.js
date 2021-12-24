@@ -2,7 +2,7 @@
 import React from 'react'
 
 import {
-  SearchContainer, UserContainer, UserInfo, Wrapper,
+  SearchContainer, UserContainer, UserInfo, UserStats, Wrapper,
 } from './styles'
 
 import octocat from '../../assets/images/octocat.png'
@@ -24,6 +24,28 @@ export default function Card() {
             <p className="bio">This profile has no bio.</p>
           </div>
         </UserInfo>
+
+        <UserStats>
+          <div>
+            <p>Repos</p>
+            <span>20</span>
+          </div>
+
+          <div>
+            <p>Public Repos</p>
+            <span>14</span>
+          </div>
+
+          <div>
+            <p>Followers</p>
+            <span>5000</span>
+          </div>
+
+          <div>
+            <p>Following</p>
+            <span>120</span>
+          </div>
+        </UserStats>
       </UserContainer>
 
     </Wrapper>

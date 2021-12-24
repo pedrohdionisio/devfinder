@@ -78,6 +78,7 @@ export const UserInfo = styled.div`
   align-items: flex-start;
 
   width: 100%;
+  margin-bottom: 40px;
 
   img {
     width: 100px;
@@ -92,6 +93,7 @@ export const UserInfo = styled.div`
     .title {
       display: flex;
       justify-content: space-between;
+      align-items: center;
 
       width: 100%;
 
@@ -110,6 +112,31 @@ export const UserInfo = styled.div`
     .bio {
       margin-top: 16px;
       color: ${({ theme }) => theme.colors.gray};
+    }
+  }
+`
+
+export const UserStats = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: ${({ theme }) => theme.colors.primaryBg};
+  width: 100%;
+
+  border-radius: 5px;
+  padding: 16px;
+
+  div {
+    p {
+      color: ${({ theme }) => theme.colors.gray};
+      margin-bottom: 8px;
+    }
+
+    span {
+      color: ${({ theme }) => theme.colors.blue};
+      font-size: 18px;
+      font-weight: bold;
     }
   }
 `
