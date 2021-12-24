@@ -11,7 +11,8 @@ export const SearchContainer = styled.form`
   align-items: center;
   justify-content: space-between;
 
-  input, button {
+  input,
+  button {
     height: 50px;
 
     border-radius: 5px;
@@ -34,7 +35,7 @@ export const SearchContainer = styled.form`
 
     border: 1px solid transparent;
 
-    transition: border-color .3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
 
     &:focus {
       border-color: ${({ theme }) => theme.colors.blue};
@@ -53,10 +54,10 @@ export const SearchContainer = styled.form`
 
     font-size: 18px;
 
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
 
     &:hover {
-      opacity: .7;
+      opacity: 0.7;
     }
   }
 `
@@ -100,8 +101,10 @@ export const UserInfo = styled.div`
       font-size: 24px;
 
       small {
+        text-align: end;
         font-size: 16px;
         color: ${({ theme }) => theme.colors.gray};
+
       }
     }
 
@@ -143,6 +146,7 @@ export const UserStats = styled.div`
 
 export const UserLinks = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 
   margin-top: 40px;
@@ -152,6 +156,7 @@ export const UserLinks = styled.div`
   div {
     display: flex;
     align-items: center;
+    margin-bottom: 8px;
 
     a {
       text-decoration: none;

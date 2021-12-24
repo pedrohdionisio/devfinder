@@ -10,4 +10,5 @@ export const Wrapper = styled.main`
   height: 100vh;
 
   margin: 0 auto;
+  padding: 0 16px;
 `

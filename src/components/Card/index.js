@@ -28,7 +28,7 @@ export default function Card() {
         <UserInfo>
           <img src={octocat} alt="Octocat" />
           <div>
-            <p className="title">The Octocat <small>Joined 25 Jan 2021.</small></p>
+            <p className="title">Pedro Henrique Dionisio <small>Joined 25 Jan 2021.</small></p>
             <span>@octocat</span>
             <p className="bio">This profile has no bio.</p>
           </div>
@@ -36,13 +36,8 @@ export default function Card() {
 
         <UserStats>
           <div>
-            <p>Repos</p>
+            <p>All Repos</p>
             <span>20</span>
-          </div>
-
-          <div>
-            <p>Public Repos</p>
-            <span>14</span>
           </div>
 
           <div>
