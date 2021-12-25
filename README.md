@@ -1,4 +1,4 @@
-# Pokedex App
+# Devfinder App
 
 Olá! Este é um projeto de um Devfinder. Foi construído com ReactJS, utilizando os React Hooks e Context API. Utilizei a [API do github](https://docs.github.com/en/rest) para fazer as requisições dos dados.
 
@@ -37,9 +37,4 @@ Ou, caso você utilize npm:
 
 Caso queira ver a aplicação rodando, clique [aqui](https://pokedex-pedrohdionisio.netlify.app/).
 
-![Gif de funcionamento da aplicação.](https://github.com/pedrohdionisio/pokedex-project/blob/main/pokedex.gif?raw=true)
-
-Comportamento no Mobile:
-
-![Gif de funcionamento da aplicação mobile.](https://github.com/pedrohdionisio/pokedex-project/blob/main/pokedex-mobile.gif?raw=true)
-
+![Gif de funcionamento da aplicação.](https://github.com/pedrohdionisio/devfinder/blob/main/devfinder.gif?raw=true)
