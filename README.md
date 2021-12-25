@@ -35,6 +35,6 @@ Ou, caso você utilize npm:
 
 ## Aplicação
 
-Caso queira ver a aplicação rodando, clique [aqui](https://pokedex-pedrohdionisio.netlify.app/).
+Caso queira ver a aplicação rodando, clique [aqui](https://devfinder-pedrohdionisio.netlify.app/).
 
 ![Gif de funcionamento da aplicação.](https://github.com/pedrohdionisio/devfinder/blob/main/devfinder.gif?raw=true)
